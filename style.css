@@ -97,13 +97,17 @@ color: var(--white);
 
 @media screen and (min-width: 431px) {
 
+    body {
+        padding: 20px;
+    }
+
     .container{
-        width: 80vw;
+        transform: scale(0.7); 
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 0.7fr;
         
-        padding: 40px;
-        margin: 1rem;
+       
+        margin: 2rem;
         
         
     }
